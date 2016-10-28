@@ -3,7 +3,7 @@
 require 'map-rec'
 
 
-conf = nginx_conf do
+conf = map_rec do
   user :nobody, :nogroup
   worker_processes 1
   events do

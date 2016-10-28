@@ -4,7 +4,7 @@ require_relative 'compiler'
 
 
 
-def nginx_conf &block
+def map_rec &block
   repeats = %i(server load_module fastcgi_param set if_)
 
   hash = block_is_hash repeats, &block

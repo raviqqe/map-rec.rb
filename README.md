@@ -19,7 +19,7 @@ Code:
 ```
 require 'map-rec'
 
-c = nginx_conf do
+c = map_rec do
   user :www
 
   http do

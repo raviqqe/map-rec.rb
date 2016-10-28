@@ -2,7 +2,7 @@
 
 require 'map-rec'
 
-file = nginx_conf do
+file = map_rec do
   load_module '/usr/lib/nginx/some_module.so'
   load_module '/usr/lib/nginx/another_module.so'
 
