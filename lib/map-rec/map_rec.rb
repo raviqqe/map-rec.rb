@@ -1,7 +1,5 @@
 require 'block-is-hash'
 
-require_relative 'compiler'
-
 
 
 def map_rec &block
