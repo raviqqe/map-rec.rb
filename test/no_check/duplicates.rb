@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'nginx-conf'
+require 'map-rec'
 
 file = nginx_conf do
   load_module '/usr/lib/nginx/some_module.so'

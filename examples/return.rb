@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'nginx-conf'
+require 'map-rec'
 
 
 conf = nginx_conf do

@@ -1,7 +1,7 @@
-# nginx-conf.rb
+# map-rec.rb
 
-[![Gem Version](https://badge.fury.io/rb/nginx-conf.svg)](https://badge.fury.io/rb/nginx-conf)
-[![Build Status](https://travis-ci.org/raviqqe/nginx-conf.rb.svg?branch=master)](https://travis-ci.org/raviqqe/nginx-conf.rb)
+[![Gem Version](https://badge.fury.io/rb/map-rec.svg)](https://badge.fury.io/rb/map-rec)
+[![Build Status](https://travis-ci.org/raviqqe/map-rec.rb.svg?branch=master)](https://travis-ci.org/raviqqe/map-rec.rb)
 [![License](https://img.shields.io/badge/license-unlicense-lightgray.svg)](https://unlicense.org)
 
 nginx.conf generator in Ruby
@@ -9,7 +9,7 @@ nginx.conf generator in Ruby
 ## Installation
 
 ```
-$ gem install nginx-conf
+$ gem install map-rec
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ $ gem install nginx-conf
 Code:
 
 ```
-require 'nginx-conf'
+require 'map-rec'
 
 c = nginx_conf do
   user :www

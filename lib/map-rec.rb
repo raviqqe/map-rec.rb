@@ -1,1 +1,1 @@
-require_relative 'nginx-conf/nginx_conf'
+require_relative 'map-rec/nginx_conf'
