@@ -2,11 +2,5 @@ sudo: required
 
 language: ruby
 
-addons:
-  apt:
-    packages:
-      - nginx
-      - rubygems
-
 script:
   - rake test
