@@ -1,4 +1,4 @@
-def map_rec object, array_elem=true, hash_key=true, hash_value=true, &block
+def map_rec(object, array_elem: true, hash_key: true, hash_value: true, &block)
   map = lambda { |o| map_rec(o, &block) }
 
   case object
