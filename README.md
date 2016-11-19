@@ -16,7 +16,7 @@ $ gem install map-rec
 
 Code:
 
-```
+```ruby
 require 'map-rec'
 
 array = map_rec ['foo', 'bar', { baz: :idontknow, monty: :python }] do
@@ -28,7 +28,7 @@ p array
 
 Output:
 
-```
+```ruby
 ["REPLACED", "REPLACED", {"REPLACED"=>"REPLACED"}]
 ```
 
